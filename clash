@@ -5,103 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 3, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: dns.ysguanggang.xyz, port: 30005, type: vmess, uuid: f1886be0-5338-493d-ae5e-2cfea20a73b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yunsunode, ws-headers: {Host: dns.ysguanggang.xyz}, udp: true}
-  - {name: CN_8du.shop 47, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管） 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: 日本（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: CN_8du.shop 45, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 55, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 48, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 香港（TG@阿伟科技/油管）, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 6500b5f0-ca3f-4bfe-bc54-75ca11c22830, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: 荷兰（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: 140.82.17.44, port: 32378, type: vmess, uuid: 6aa8effe-bfe1-11ec-867a-560003f41e1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HM8VxJm1/, ws-headers: {Host: 140.82.17.44}, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡 4, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: lzq01.ugatk.ml, port: 443, type: vmess, uuid: 2b6e2731-3f17-4679-a8e1-70fa6ace0df9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /a8b0dd0a562e30/, ws-headers: {Host: lzq01.ugatk.ml}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 3, server: lzq02.ugatk.ml, port: 443, type: vmess, uuid: 71a222de-6ec9-4bfb-872f-a0b39a10028f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7cd2305/, ws-headers: {Host: lzq02.ugatk.ml}, udp: true}
-  - {name: 美国(yudou66.com 玉豆分享), server: 104.16.47.181, port: 443, type: vmess, uuid: 7824cbc1-f82d-48cf-fb1d-54d8911849c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yorknodes-fr-par-1, ws-headers: {Host: fr1.144050.cf}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 4, server: 149.28.81.105, port: 45721, type: vmess, uuid: 492cbc4a-c07f-11ec-881d-560003f4a437, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /T3cj7mJZ/, ws-headers: {Host: 149.28.81.105}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: default_name, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN-6, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 4.ezydfdd.com}, udp: true}
+  - {name: US, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
+  - {name: JP, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, sni: jp.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: jpaz3.xmrth-node.xyz, port: 11012, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: _US_美国 2, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 4.ezydfdd.com}, udp: true}
+  - {name: _US_美国->🇰🇷_KR_韩国, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: GB-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 4, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
+  - {name: _US_美国 3, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: v2-3.godlight.xyz, port: 39273, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
+  - {name: _JP_日本, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f34f3-f32f364, ws-headers: {Host: v2.godlight.xyz}, udp: true}
+  - {name: CN-6 2, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: default_name 2, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,109 +124,113 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港（TG@阿伟科技/油管）
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇹🇼_TW_台湾 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,26 +246,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇸🇬_SG_新加坡 2
-      - _CN_中国->🇸🇬_SG_新加坡 3
-      - 韩国（TG@阿伟科技/油管）
-      - CN_8du.shop 47
-      - 韩国（TG@阿伟科技/油管） 2
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 45
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - 香港（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 荷兰（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管）
-      - _CN_中国->🇸🇬_SG_新加坡 4
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 3
-      - 美国(yudou66.com 玉豆分享)
-      - 美国（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管）
+      - _CN_中国->🇹🇼_TW_台湾
+      - default_name
+      - CN-6
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - _US_美国
+      - US
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - JP
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _US_美国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - US 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _US_美国 3
+      - 新加坡（TG@阿伟科技/油管）
+      - _JP_日本
+      - CN-6 2
+      - default_name 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
