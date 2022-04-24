@@ -5,99 +5,399 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: CN-6, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 4.ezydfdd.com}, udp: true}
-  - {name: US, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
-  - {name: JP, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, sni: jp.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: jpaz3.xmrth-node.xyz, port: 11012, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: _US_美国 2, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 4.ezydfdd.com}, udp: true}
-  - {name: _US_美国->🇰🇷_KR_韩国, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: GB-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 4, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
-  - {name: _US_美国 3, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: v2-3.godlight.xyz, port: 39273, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
-  - {name: _JP_日本, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f34f3-f32f364, ws-headers: {Host: v2.godlight.xyz}, udp: true}
-  - {name: CN-6 2, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 14, server: 183.232.163.120, port: 21114, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 16, server: 183.232.163.120, port: 21116, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 13, server: 183.232.163.120, port: 21140, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 45, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 14 2, server: 183.232.163.120, port: 21114, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 16 2, server: 183.232.163.120, port: 21116, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 25, server: 183.232.163.120, port: 21133, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 20, server: 183.232.163.120, port: 21134, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 38, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 20 2, server: 183.232.163.120, port: 21134, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop, server: 183.232.163.120, port: 21118, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 2, server: 183.232.163.120, port: 21118, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 9, server: 183.232.163.120, port: 21115, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 15, server: 183.232.163.120, port: 21139, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 5, server: 183.232.163.120, port: 21135, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 7, server: 183.232.163.120, port: 21136, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 37, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 12, server: 183.232.163.120, port: 21113, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 40, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 4, server: 183.232.163.120, port: 21125, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 41, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 72, server: shcu.relay01.insnow.xyz, port: 19912, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 71, server: shcu.relay01.insnow.xyz, port: 19901, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 25 2, server: 183.232.163.120, port: 21133, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 18, server: 183.240.181.36, port: 36487, type: vmess, uuid: 354b8f96-75a1-4488-9aaf-25329f8a36ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: sg2.qcjs.one}, udp: true}
+  - {name: CN_8du.shop 75, server: shcu.relay01.insnow.xyz, port: 19919, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 42, server: 183.240.181.36, port: 12504, type: ss, cipher: chacha20-ietf-poly1305, password: 354b8f96-75a1-4488-9aaf-25329f8a36ff, udp: true}
+  - {name: CN_8du.shop 4 2, server: 183.232.163.120, port: 21125, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 8, server: 183.232.163.120, port: 21124, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 6, server: 183.232.163.120, port: 21126, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 15 2, server: 183.232.163.120, port: 21139, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 44, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 6 2, server: 183.232.163.120, port: 21126, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 26, server: cmjm.senlinss.link, port: 21142, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: CN_8du.shop 3, server: cmjm.senlinss.link, port: 21135, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: CN_8du.shop 8 2, server: 183.232.163.120, port: 21124, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 13 2, server: 183.232.163.120, port: 21140, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 19, server: 183.232.163.120, port: 21142, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 9 2, server: 183.232.163.120, port: 21115, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 53, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 48, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 5 2, server: 183.232.163.120, port: 21135, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 12 2, server: 183.232.163.120, port: 21113, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 78, server: shcu.relay01.insnow.xyz, port: 19904, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 39, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
+  - {name: CN_8du.shop 24, server: 183.232.163.120, port: 21130, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 43, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: GB_8du.shop 4, server: 185.167.117.171, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: CN_8du.shop 10, server: 183.232.163.120, port: 21122, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: GB_8du.shop 18, server: 185.167.117.171, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: HK_8du.shop, server: 104.208.88.1, port: 80, type: vmess, uuid: 985dc171-40f8-4daf-b1ca-c8fb6aecdb72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: CN_8du.shop 58, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop 54, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: GB_8du.shop 9, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: CN_8du.shop 2 2, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: GB_8du.shop 11, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: CA_8du.shop 9, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CA_8du.shop 6, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CN_8du.shop 79, server: gzcm.relay02.insnow.xyz, port: 19925, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 74, server: gzcm.relay02.insnow.xyz, port: 19921, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: NL_8du.shop 9, server: 213.183.51.171, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: IN_8du.shop, server: doin.node003.insnow.xyz, port: 9933, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: doin.node003.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: GB_8du.shop, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: NL_8du.shop 8, server: 213.183.51.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: CN_8du.shop 64, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 加拿大（欢迎订阅Youtube元亨利贞）_28, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: NL_8du.shop 5, server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: NL_8du.shop 6, server: 213.183.51.171, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管） 5, server: 213.183.51.172, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管） 9, server: 213.183.51.172, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: （欢迎订阅Youtube元亨利贞）_24, server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: freestarway.tk}, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: tw.node001.insnow.xyz, port: 12001, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: tw.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管） 6, server: 213.183.51.172, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: NL_8du.shop 3, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: NL_8du.shop 4, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: NL_8du.shop 2, server: 213.183.51.172, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 中国（TG@阿伟科技/油管） 13, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管） 4, server: 213.183.51.172, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: GB_8du.shop 5, server: 185.167.117.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: GB_8du.shop 16, server: 185.167.117.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: GB_8du.shop 17, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: GB_8du.shop 6, server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: CN_8du.shop 46, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: GB_8du.shop 13, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 中国（TG@阿伟科技/油管） 5, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: GB_8du.shop 7, server: 185.167.117.171, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: GB_8du.shop 10, server: 185.167.117.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: NL_8du.shop 7, server: 213.183.51.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: CN_8du.shop 51, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop 50, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: GB_8du.shop 15, server: 185.167.117.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: GB_8du.shop 8, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: CN_8du.shop 63, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管） 13, server: 213.183.51.172, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,105 +416,404 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾（TG@阿伟科技/油管）
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,25 +829,100 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇹🇼_TW_台湾
-      - CN-6
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - _US_美国
-      - US
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - JP
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _US_美国 2
-      - _US_美国->🇰🇷_KR_韩国
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - US 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - _US_美国 3
-      - 新加坡（TG@阿伟科技/油管）
-      - _JP_日本
-      - CN-6 2
+      - CN_8du.shop 14
+      - CN_8du.shop 16
+      - CN_8du.shop 13
+      - CN_8du.shop 45
+      - CN_8du.shop 14 2
+      - CN_8du.shop 16 2
+      - CN_8du.shop 25
+      - CN_8du.shop 20
+      - CN_8du.shop 38
+      - CN_8du.shop 20 2
+      - CN_8du.shop
+      - CN_8du.shop 2
+      - CN_8du.shop 9
+      - CN_8du.shop 15
+      - CN_8du.shop 5
+      - CN_8du.shop 7
+      - CN_8du.shop 37
+      - CN_8du.shop 12
+      - CN_8du.shop 40
+      - CN_8du.shop 4
+      - CN_8du.shop 41
+      - CN_8du.shop 72
+      - CN_8du.shop 71
+      - CN_8du.shop 25 2
+      - CN_8du.shop 18
+      - CN_8du.shop 75
+      - CN_8du.shop 42
+      - CN_8du.shop 4 2
+      - CN_8du.shop 8
+      - CN_8du.shop 6
+      - CN_8du.shop 15 2
+      - CN_8du.shop 44
+      - CN_8du.shop 6 2
+      - CN_8du.shop 26
+      - CN_8du.shop 3
+      - CN_8du.shop 8 2
+      - CN_8du.shop 13 2
+      - CN_8du.shop 19
+      - CN_8du.shop 9 2
+      - CN_8du.shop 53
+      - CN_8du.shop 48
+      - CN_8du.shop 5 2
+      - CN_8du.shop 12 2
+      - CN_8du.shop 78
+      - CN_8du.shop 39
+      - CN_8du.shop 24
+      - CN_8du.shop 43
+      - GB_8du.shop 4
+      - CN_8du.shop 10
+      - GB_8du.shop 18
+      - HK_8du.shop
+      - CN_8du.shop 58
+      - CN_8du.shop 54
+      - GB_8du.shop 9
+      - CN_8du.shop 2 2
+      - GB_8du.shop 11
+      - CA_8du.shop 9
+      - CA_8du.shop 6
+      - CN_8du.shop 79
+      - CN_8du.shop 74
+      - NL_8du.shop 9
+      - IN_8du.shop
+      - GB_8du.shop
+      - NL_8du.shop 8
+      - CN_8du.shop 64
+      - 加拿大（欢迎订阅Youtube元亨利贞）_28
+      - NL_8du.shop 5
+      - NL_8du.shop 6
+      - 荷兰（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管） 9
+      - （欢迎订阅Youtube元亨利贞）_24
+      - 台湾（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管） 6
+      - NL_8du.shop 3
+      - NL_8du.shop 4
+      - NL_8du.shop 2
+      - 中国（TG@阿伟科技/油管） 13
+      - 荷兰（TG@阿伟科技/油管） 4
+      - GB_8du.shop 5
+      - GB_8du.shop 16
+      - GB_8du.shop 17
+      - GB_8du.shop 6
+      - CN_8du.shop 46
+      - GB_8du.shop 13
+      - 中国（TG@阿伟科技/油管） 5
+      - GB_8du.shop 7
+      - GB_8du.shop 10
+      - NL_8du.shop 7
+      - CN_8du.shop 51
+      - CN_8du.shop 50
+      - GB_8du.shop 15
+      - GB_8du.shop 8
+      - CN_8du.shop 63
+      - 荷兰（TG@阿伟科技/油管） 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
