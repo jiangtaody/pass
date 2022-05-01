@@ -5,159 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: (Youtube0430)🇺🇸美国, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 2, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube0430), server: 38.68.135.112, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 3, server: 162.251.61.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US美国(Youtube0430) 2, server: 38.68.135.112, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 4, server: 38.68.135.112, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 5, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 6, server: 38.68.135.112, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 7, server: 38.68.135.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (Youtube0430)🇬🇧英国, server: 172.99.190.153, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (Youtube0430)🇬🇧英国 2, server: 172.99.190.153, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 8, server: 38.68.135.112, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 9, server: 38.68.135.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 10, server: 38.68.135.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US美国(Youtube0430) 3, server: 38.68.135.112, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 11, server: 38.68.135.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 12, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (Youtube0430)🇬🇧英国 3, server: 172.99.190.153, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇬🇧英国 4, server: 172.99.190.153, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇫🇷法国, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.15738743.xyz}, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 13, server: 169.197.142.216, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 14, server: 169.197.142.216, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (Youtube0430)🇺🇸美国 15, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (Youtube0430)🇺🇦乌克兰, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho, udp: true}
-  - {name: DE德国(Youtube0430), server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (Youtube0430)🇬🇧英国 5, server: 172.99.190.153, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube0430)🇩🇪德国, server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: (Youtube0430)🇩🇪德国 2, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: (Youtube0430)🇨🇳中国, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube0430)🇩🇪德国 3, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (Youtube0430)🇩🇪德国 4, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: (Youtube0430)🇩🇪德国 5, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (Youtube0430)🇩🇪德国 6, server: 5.183.179.167, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: (Youtube0430)🇩🇪德国 7, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开）, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
+  - {name: RU_1154 | 3.41Mb, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 香港【YouTube由零开始】 2, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: TW-高速节点购买：v1.mk/vip（浏览器打开）, server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ythe54, ws-headers: {Host: 103.98.73.12}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: cm1-hk.hutaod.me, port: 12436, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(yudou66_com+玉豆分享)_2, server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, sni: jp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 3, server: cm1-hk.hutaod.me, port: 12434, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度丨筋斗云丨Weoworks提供, server: 104.16.148.48, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 4, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 5, server: cm1-hk.hutaod.me, port: 12433, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 6, server: cm1-hk.hutaod.me, port: 12431, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开）, server: www.sszhegeba.ml, port: 443, type: vmess, uuid: b4627c3c-3ea0-42d7-8f58-e4e417ed0d36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/056dbf9?ed=2048", ws-headers: {Host: www.sszhegeba.ml}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 7, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 8, server: cm1-hk.hutaod.me, port: 12438, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开）, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
+  - {name: 日本(yudou66_com+玉豆分享)_70, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 9, server: cm1-hk.hutaod.me, port: 12437, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开） 2, server: 104.19.3.12, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 10, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: Ytb:鹏哥分享_美国_103, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 11, server: cm1-hk.hutaod.me, port: 12435, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_400 | 2.21Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欧洲(yudou66_com+玉豆分享)_18, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_393 |12.19Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: CN_386 |16.04Mb, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 德国（欢迎订阅Youtube元亨利贞）_42, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 12, server: 119.147.20.236, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: GB_718 |34.12Mb, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国 2, server: 5.183.179.167, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国 3, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开） 3, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开） 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,163 +180,168 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港【YouTube由零开始】 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -348,40 +357,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (Youtube0430)🇺🇸美国
-      - (Youtube0430)🇺🇸美国 2
-      - US美国(Youtube0430)
-      - (Youtube0430)🇺🇸美国 3
-      - US美国(Youtube0430) 2
-      - (Youtube0430)🇺🇸美国 4
-      - (Youtube0430)🇺🇸美国 5
-      - (Youtube0430)🇺🇸美国 6
-      - (Youtube0430)🇺🇸美国 7
-      - (Youtube0430)🇬🇧英国
-      - (Youtube0430)🇬🇧英国 2
-      - (Youtube0430)🇺🇸美国 8
-      - (Youtube0430)🇺🇸美国 9
-      - (Youtube0430)🇺🇸美国 10
-      - US美国(Youtube0430) 3
-      - (Youtube0430)🇺🇸美国 11
-      - (Youtube0430)🇺🇸美国 12
-      - (Youtube0430)🇬🇧英国 3
-      - (Youtube0430)🇬🇧英国 4
-      - (Youtube0430)🇫🇷法国
-      - (Youtube0430)🇺🇸美国 13
-      - (Youtube0430)🇺🇸美国 14
-      - (Youtube0430)🇺🇸美国 15
-      - (Youtube0430)🇺🇦乌克兰
-      - DE德国(Youtube0430)
-      - (Youtube0430)🇬🇧英国 5
-      - (Youtube0430)🇩🇪德国
-      - (Youtube0430)🇩🇪德国 2
-      - (Youtube0430)🇨🇳中国
-      - (Youtube0430)🇩🇪德国 3
-      - (Youtube0430)🇩🇪德国 4
-      - (Youtube0430)🇩🇪德国 5
-      - (Youtube0430)🇩🇪德国 6
-      - (Youtube0430)🇩🇪德国 7
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU_1154 | 3.41Mb
+      - 香港【YouTube由零开始】 2
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 印度丨筋斗云丨Weoworks提供
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - (Youtube技术分享室)🇩🇪德国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本(yudou66_com+玉豆分享)_70
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - Ytb:鹏哥分享_美国_103
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - CN_400 | 2.21Mb
+      - (Youtube技术分享室)🇨🇳中国
+      - 欧洲(yudou66_com+玉豆分享)_18
+      - CN_393 |12.19Mb
+      - CN_386 |16.04Mb
+      - 德国（欢迎订阅Youtube元亨利贞）_42
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - GB_718 |34.12Mb
+      - (Youtube技术分享室)🇩🇪德国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
