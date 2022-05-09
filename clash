@@ -5,195 +5,311 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RU-高速节点购买：v1.mk/vip（浏览器打开）, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: efaeb7b2-bd81-37d7-b3af-5c633570f423, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
   - {name: SG-高速节点购买：v1.mk/vip（浏览器打开）, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: AU-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚(yudou66_com玉豆分享)_15, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_52, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开）, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_28, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_76, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开）, server: 20.205.125.236, port: 60012, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: cdn-cn.nekocloud.cn, port: 19050, type: vmess, uuid: 1c1dbf58-1a59-3aa7-bf22-384eb45ddff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 3, server: cdn-cn.nekocloud.cn, port: 19042, type: vmess, uuid: 1c1dbf58-1a59-3aa7-bf22-384eb45ddff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 8度商店：8du.shop 86, server: 120.232.82.139, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开）, server: 3.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: 3.v2tk.tk}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 4, server: cdn-cn.nekocloud.cn, port: 19095, type: vmess, uuid: 1c1dbf58-1a59-3aa7-bf22-384eb45ddff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 20.24.77.204, port: 60015, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 20.24.77.204, port: 60017, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 5, server: hncu.relay.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 4, server: 20.24.77.204, port: 60014, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 5, server: 20.24.77.204, port: 60010, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: 8度商店：8du.shop 78, server: 134.195.196.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 6, server: cdn-cn.nekocloud.cn, port: 19016, type: vmess, uuid: 1c1dbf58-1a59-3aa7-bf22-384eb45ddff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 鹏哥分享_加拿大_124, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 8度商店：8du.shop 87, server: 120.232.82.139, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 6, server: 20.24.77.204, port: 60016, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: 鹏哥分享_英国_43, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 鹏哥分享_英国_62, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 7, server: bbs.sysucc.cf, port: 443, type: vmess, uuid: 258fc42e-e186-48a2-a9a7-9cc0a12fec90, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ad05447fdd8fb/, ws-headers: {Host: bbs.sysucc.cf}, udp: true}
+  - {name: 8度商店：8du.shop 84, server: 134.195.196.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 鹏哥分享_加拿大_129, server: 134.195.196.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 8度商店：8du.shop 100, server: 120.232.82.139, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 30, server: 134.195.196.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 8度商店：8du.shop 88, server: 116.129.254.33, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 鹏哥分享_英国_64, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 8, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 9, server: 20.24.77.204, port: 60034, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: 8度商店：8du.shop 99, server: 116.129.254.65, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 鹏哥分享_加拿大_163, server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 8度商店：8du.shop 54, server: 134.195.196.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 8度商店：8du.shop 39, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 43, server: 116.129.254.33, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 7, server: word.14.1.fuckword.club, port: 48861, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: IR-高速节点购买：v1.mk/vip（浏览器打开）, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pdOa1847/, ws-headers: {Host: asr-farda.ir}, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_22, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大_24, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 日本(yudou66_com+玉豆分享)_7, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国TG阿伟科技油管) 7, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_17, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 英国(yudou66_com+玉豆分享)_34, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 23, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大TG阿伟科技油管) 11, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 8度商店：8du.shop 33, server: 120.240.168.118, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 67, server: 134.195.196.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 8度商店：8du.shop 32, server: juzi-iplc001.ddns-oink.xyz, port: 40218, type: vmess, uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzi-iplc001.ddns-oink.xyz}, udp: true}
+  - {name: 鹏哥分享_加拿大_100, server: 134.195.196.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 8度商店：8du.shop 76, server: 183.232.56.108, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 鹏哥分享_加拿大_98, server: 134.195.196.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: BR-高速节点购买：v1.mk/vip（浏览器打开）, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: RU-高速节点购买：v1.mk/vip（浏览器打开）, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_加拿大_97, server: 134.195.196.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 8度商店：8du.shop 123, server: 183.232.56.108, port: 63078, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: 8度商店：8du.shop 38, server: 120.240.168.118, port: 63078, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
+  - {name: 8度商店：8du.shop 31, server: 120.232.82.139, port: 63078, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.232.82.139}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 10, server: vui.sysucc.ga, port: 49865, type: trojan, password: MeQVCkMzCg, sni: vui.sysucc.ga, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 8, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_美国_17, server: 20.24.77.204, port: 60031, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 9, server: 4.game.speed.zz.001.oooooooooo.icu, port: 25842, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_16 TG@peekfun, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CA_加拿大_50, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_美国_66, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 10, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
-  - {name: _CA_加拿大_13, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大_15, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_21, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Ytb:鹏哥分享_美国_85, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Ytb:鹏哥分享_美国_43, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: CN_386 |16.04Mb, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Ytb:鹏哥分享_美国_93, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 10, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_美国_185, server: 20.24.77.204, port: 60028, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 11, server: qinton002.bmbai.buzz, port: 20600, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssl.baiyu.click}, udp: true}
+  - {name: AU-高速节点购买：v1.mk/vip（浏览器打开）, server: 129.154.215.121, port: 18409, type: vmess, uuid: eb611f2d-233a-4c86-88f2-02a04419ebe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.154.215.121}, udp: true}
+  - {name: 鹏哥分享_英国_83, server: 172.99.190.35, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 12, server: 2.1.1.fuckppppp.today, port: 53126, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: (资源分享师)🇨🇳中国 20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: Ytb:鹏哥分享_美国_50, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 13, server: cdn-cn.nekocloud.cn, port: 19029, type: vmess, uuid: 1c1dbf58-1a59-3aa7-bf22-384eb45ddff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 8度商店：8du.shop 68, server: 183.232.56.108, port: 63041, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 14, server: 3.8.1.fuckppppp.today, port: 53125, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开） 2, server: xa.ex306.buzz, port: 443, type: vmess, uuid: E725D31D-BBBF-3330-7A40-C92DEEA3B1CF, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: xa.ex306.buzz}, udp: true}
+  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 11, server: us03.xqkj.cloud, port: 1113, type: vmess, uuid: 02fb79cc-d0d4-4429-8a2d-abce3746855e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us03.xqkj.cloud}, udp: true}
+  - {name: 8度商店：8du.shop 85, server: 134.195.196.205, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: CN_393 |12.19Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 4, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
+  - {name: 8度商店：8du.shop 47, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: 高速节点购买：v1.mk/vip（浏览器打开）, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 5, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: 美国（欢迎订阅Youtube元亨利贞）_46, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,49 +328,78 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -265,146 +410,233 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -420,49 +652,78 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU-高速节点购买：v1.mk/vip（浏览器打开）
       - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - 澳大利亚(yudou66_com玉豆分享)_15
-      - _JP_日本_52
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - Ytb:鹏哥分享_加拿大_28
-      - Ytb:鹏哥分享_加拿大_76
-      - IR-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_加拿大_22
-      - _CA_加拿大_24
-      - 日本(yudou66_com+玉豆分享)_7
-      - 美国TG阿伟科技油管) 7
-      - _CA_加拿大_17
-      - 英国(yudou66_com+玉豆分享)_34
-      - 美国(欢迎订阅Youtube破解资源君) 23
-      - 加拿大TG阿伟科技油管) 11
-      - _CA_加拿大
-      - CN_16 TG@peekfun
-      - _CA_加拿大_50
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - Ytb:鹏哥分享_美国_66
-      - 亚洲(欢迎订阅Youtube破解资源君) 10
-      - _CA_加拿大_13
-      - _CA_加拿大_15
-      - _CA_加拿大_21
-      - Ytb:鹏哥分享_美国_85
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_美国_43
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - CN_386 |16.04Mb
-      - Ytb:鹏哥分享_美国_93
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
       - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - (资源分享师)🇨🇳中国 20
-      - Ytb:鹏哥分享_美国_50
-      - CN_393 |12.19Mb
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 8度商店：8du.shop 86
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国（欢迎订阅Youtube元亨利贞）_46
+      - 8度商店：8du.shop 78
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_加拿大_124
+      - 8度商店：8du.shop 87
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 鹏哥分享_英国_43
+      - 鹏哥分享_英国_62
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 8度商店：8du.shop 84
+      - 鹏哥分享_加拿大_129
+      - 8度商店：8du.shop 100
+      - 8度商店：8du.shop 30
+      - 8度商店：8du.shop 88
+      - 鹏哥分享_英国_64
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 8度商店：8du.shop 99
+      - 鹏哥分享_加拿大_163
+      - 8度商店：8du.shop 54
+      - 8度商店：8du.shop 39
+      - 8度商店：8du.shop 43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 8度商店：8du.shop 33
+      - 8度商店：8du.shop 67
+      - 8度商店：8du.shop 32
+      - 鹏哥分享_加拿大_100
+      - 8度商店：8du.shop 76
+      - 鹏哥分享_加拿大_98
+      - BR-高速节点购买：v1.mk/vip（浏览器打开）
+      - RU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_加拿大_97
+      - 8度商店：8du.shop 123
+      - 8度商店：8du.shop 38
+      - 8度商店：8du.shop 31
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 鹏哥分享_美国_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - CN_16 TG@peekfun
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - 鹏哥分享_美国_185
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 鹏哥分享_英国_83
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
+      - (资源分享师)🇨🇳中国 20
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
+      - 8度商店：8du.shop 68
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - 8度商店：8du.shop 85
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - CN_393 |12.19Mb
+      - 8度商店：8du.shop 47
+      - 高速节点购买：v1.mk/vip（浏览器打开）
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
