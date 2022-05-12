@@ -5,531 +5,335 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube梦歌|Netflix_10, server: lt.yhy520.xyz, port: 58830, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_12, server: lt.yhy520.xyz, port: 58806, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_94, server: lt.yhy520.xyz, port: 58810, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_4, server: dx.yhy520.xyz, port: 58807, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_1, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 379a0a11-3468-4eb5-b0d3-490e06459d9a, udp: true}
-  - {name: YouTube梦歌|Netflix_34, server: dx.yhy520.xyz, port: 58814, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 11, server: v2-3.godlight.xyz, port: 39277, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_20, server: dx.yhy520.xyz, port: 58825, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国_3, server: 141.164.42.236, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: YouTube梦歌|Netflix_21, server: lt.yhy520.xyz, port: 58812, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: hncu.relay.qchwnd.moe, port: 44616, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_54, server: lt.yhy520.xyz, port: 58829, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_65, server: dx.yhy520.xyz, port: 58816, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_17, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_60, server: dx.yhy520.xyz, port: 58828, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_209, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: 20.239.68.187, port: 60006, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.239.68.187}, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: trojan.linkdns.xyz, port: 40219, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 3, server: trojan.linkdns.xyz, port: 40213, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_63, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 4, server: trojan.linkdns.xyz, port: 40209, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 5, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国【由零开始YouTube】 4, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 6, server: hncu.relay.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 7, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(yudou66.com+玉豆分享), server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_52, server: lt.yhy520.xyz, port: 58813, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_224, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 2f84cce8-17a1-414f-8925-65cc78cc105e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
-  - {name: YouTube梦歌|Netflix_68, server: lt.yhy520.xyz, port: 58820, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: 8度商店：8du.shop 62, server: 134.195.196.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_4, server: 38.114.114.67, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 8, server: trojan.linkdns.xyz, port: 40201, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 8度商店：8du.shop 103, server: xa.ex306.buzz, port: 443, type: vmess, uuid: E725D31D-BBBF-3330-7A40-C92DEEA3B1CF, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: xa.ex306.buzz}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
-  - {name: 鹏哥分享_英国_42, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 9, server: hncu.relay.qchwnd.moe, port: 44613, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 10, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 11, server: trojan.linkdns.xyz, port: 40218, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 12, server: trojan.linkdns.xyz, port: 40217, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 13, server: trojan.linkdns.xyz, port: 40230, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 鹏哥分享_英国_64, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 鹏哥分享_英国_61, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 14, server: trojan.linkdns.xyz, port: 40204, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 15, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_58, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: (资源分享师)🇨🇳中国 20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 鹏哥分享_英国_112, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 鹏哥分享_英国_62, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 16, server: trojan.linkdns.xyz, port: 40210, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_22, server: dx.yhy520.xyz, port: 58821, type: trojan, password: 17afa1ae-78c3-3dbc-9522-f4e69e274707, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_21 2, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 17, server: trojan.linkdns.xyz, port: 40211, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 鹏哥分享_英国_73, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 印度(yudou66_com+玉豆分享)_37, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_82, server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: hkbn.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_169, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_214, server: trojan.linkdns.xyz, port: 40221, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 18, server: trojan.linkdns.xyz, port: 40205, type: trojan, password: 12f73569-a856-3896-a798-aab097a89432, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_136, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 2f84cce8-17a1-414f-8925-65cc78cc105e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 15, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube梦歌|Netflix_167, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 2f84cce8-17a1-414f-8925-65cc78cc105e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: 8度商店：8du.shop 86, server: 120.232.82.139, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: YouTube梦歌|Netflix_105, server: 140.207.232.42, port: 3002, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_13, server: 140.207.232.42, port: 40009, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_58 2, server: 140.207.232.42, port: 2007, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 120, server: 112.64.53.217, port: 63078, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 112.64.53.217}, udp: true}
-  - {name: 8度商店：8du.shop 50, server: 120.240.168.118, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: YouTube梦歌|Netflix_29, server: 140.207.232.42, port: 2008, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_32, server: 140.207.232.42, port: 2010, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 101, server: 112.64.53.217, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 33, server: 120.240.168.118, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: YouTube梦歌|Netflix_35, server: 140.207.232.42, port: 40012, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 91, server: 112.64.53.217, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 112.64.53.217}, udp: true}
-  - {name: 8度商店：8du.shop 83, server: 116.129.254.33, port: 63078, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 116.129.254.33}, udp: true}
-  - {name: YouTube梦歌|Netflix_112, server: 140.207.232.42, port: 49174, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_55, server: 140.207.232.42, port: 40019, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 香港TG阿伟科技油管) 3, server: 47.243.22.153, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 47.243.22.153}, udp: true}
-  - {name: 8度商店：8du.shop 82, server: 120.240.168.118, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: YouTube梦歌|Netflix_56, server: 140.207.232.42, port: 2042, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_30, server: 140.207.232.42, port: 2026, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_26, server: 140.207.232.42, port: 2033, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_61, server: 140.207.232.42, port: 15684, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 64, server: 120.240.168.118, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
-  - {name: YouTube梦歌|Netflix_43, server: 140.207.232.42, port: 3003, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 116, server: 112.64.53.217, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: YouTube梦歌|Netflix_77, server: 140.207.232.42, port: 2029, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_51, server: 140.207.232.42, port: 55683, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_22 2, server: 140.207.232.42, port: 3008, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 110, server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 香港(yudou66.com+玉豆分享)_1, server: 139.219.9.138, port: 19811, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
-  - {name: YouTube梦歌|Netflix_19, server: 140.207.232.42, port: 2003, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 26, server: 159.27.115.21, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.27.115.21}, udp: true}
-  - {name: YouTube梦歌|Netflix_31, server: 140.207.232.42, port: 40011, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_24, server: 140.207.232.42, port: 2028, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: YouTube梦歌|Netflix_66, server: 140.207.232.42, port: 2013, type: vmess, uuid: 521ae064-b95b-3e3d-a956-8625ccdd7f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.207.232.42}, udp: true}
-  - {name: 8度商店：8du.shop 93, server: 159.27.115.21, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 订阅频道, server: 14.29.124.168, port: 24015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 101.230.149.29}, udp: true}
-  - {name: YouTube梦歌|Netflix_45, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}, udp: true}
-  - {name: 越南, server: 103.167.199.209, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 8度商店：8du.shop 55, server: 202.64.1.102, port: 553, type: vmess, uuid: 30ef0f29-da14-349d-9c49-728d5adc4ba8, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_49, server: 40.115.138.101, port: 19122, type: vmess, uuid: 1ecce62d-4164-3878-9d52-cb183e2cce6d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@阿伟科技/油管） 3, server: 120.233.10.125, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: YouTube梦歌|Netflix_119, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 70, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 8度商店：8du.shop 104, server: 116.129.254.65, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: -AU-大米粥-34_34, server: 185.167.116.253, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: _NL_荷兰, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.140.112}, udp: true}
-  - {name: 美国, server: 172.67.184.192, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: kr01.ssttkk.com}, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh, server: 143.110.227.174, port: 43763, type: vmess, uuid: ac60f718-ba45-4338-9005-9e4cc4210f3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 143.110.227.174}, udp: true}
-  - {name: 美国TG阿伟科技油管) 15, server: 136.175.179.6, port: 6519, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
-  - {name: 鹏哥分享_美国_107, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _TG阿伟科技油管) 2, server: 211.91.243.241, port: 60051, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
-  - {name: 鹏哥分享_中国_7, server: cm.mj-cn.cyou, port: 26622, type: vmess, uuid: 455af770-9c42-424e-b284-cb51655d5228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 鹏哥分享_中国_27, server: cm.mj-cn.cyou, port: 16627, type: vmess, uuid: 455af770-9c42-424e-b284-cb51655d5228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 鹏哥分享_加拿大_136, server: 134.195.196.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NL-Openit.ml, server: 5.255.101.50, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, skip-cert-verify: true, udp: true}
-  - {name: 荷兰【YouTube由零开始】, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 19, server: qinton002.bmbai.buzz, port: 20603, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssl.baiyu.click}, udp: true}
-  - {name: 鹏哥分享_中国_4, server: cm.mj-cn.cyou, port: 16631, type: vmess, uuid: 455af770-9c42-424e-b284-cb51655d5228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: YouTube梦歌|Netflix_151, server: qinton002.bmbai.buzz, port: 20602, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: qinton002.bmbai.buzz}, udp: true}
-  - {name: YouTube@阿阳AYANG 20, server: 2.9.0.fuckppppp.today, port: 53942, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TG阿伟科技油管) 46, server: liantong.latiao.cyou, port: 26802, type: ss, cipher: chacha20-ietf-poly1305, password: 25f98668-8ef6-4ed0-a8f8-fe5743ec8890, udp: true}
-  - {name: 鹏哥分享_中国_28, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: 455af770-9c42-424e-b284-cb51655d5228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 鹏哥分享_中国_9, server: cm.mj-cn.cyou, port: 16634, type: vmess, uuid: 455af770-9c42-424e-b284-cb51655d5228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: YouTube@阿阳AYANG 6, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_1, server: shlt.sub-nthu.com, port: 35001, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_13, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_8, server: ygzyd.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_36, server: shlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com+玉豆分享)_4, server: ygzyd.sub-nthu.com, port: 35000, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_5, server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_4, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: YouTube梦歌|Netflix_89, server: shlt.sub-nthu.com, port: 35000, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_14, server: 38.91.100.150, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8888 @WangCai_1, server: 38.91.100.150, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_12, server: 38.91.100.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_11, server: 169.197.141.15, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: YouTube梦歌|Netflix_93, server: cn2hn.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: US_8009 @WangCai_1, server: 169.197.141.15, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_6679 @WangCai_1 2, server: 169.197.141.15, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_7001 @WangCai_1, server: 38.91.100.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_8, server: 169.197.141.15, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_2375 @WangCai_1 2, server: 38.91.100.150, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_5, server: 169.197.141.15, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_8881 @WangCai_1, server: 38.91.100.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_9101 @WangCai_1 2, server: 38.91.100.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_7, server: 169.197.141.15, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8009 @WangCai_1 2, server: 38.91.100.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_5000 @WangCai_1 2, server: 38.91.100.150, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8118 @WangCai_1, server: 169.197.141.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_5601 @WangCai_1, server: 169.197.141.15, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_7002 @WangCai_1, server: 169.197.141.15, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9, server: 134.195.196.206, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_5 2, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_2, server: 169.197.141.15, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 鹏哥分享_美国_113, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_9, server: 38.121.43.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(yudou66.com+玉豆分享)_1, server: 167.88.63.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8118 @WangCai_1 2, server: 38.91.100.150, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_5003 @WangCai_1 2, server: 134.195.196.206, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_6679 @WangCai_1, server: 38.91.100.150, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: YouTube梦歌|Netflix_86, server: shlt.sub-nthu.com, port: 35003, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: US_美国(yudou66.com+玉豆分享)_12, server: 169.197.141.15, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5004 @WangCai_1 4, server: 134.195.196.206, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_20, server: 38.91.100.150, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_6379 @WangCai_1, server: 38.91.100.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_5600 @WangCai_1, server: 38.91.100.150, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube梦歌|Netflix_4, server: ygzyd.sub-nthu.com, port: 35003, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2, server: 134.195.196.206, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_8008 @WangCai_1, server: 38.91.100.150, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_5004 @WangCai_1, server: 38.91.100.150, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5003 @WangCai_1, server: 38.91.100.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_7307 @WangCai_1, server: 38.91.100.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_8882 @WangCai_1, server: 38.91.100.150, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7, server: 134.195.196.206, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_5500 @WangCai_1, server: 38.91.100.150, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 台湾(yudou66.com+玉豆分享)_2, server: shlt.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: ‌‌🇨🇦CA_7307 @WangCai_1, server: 134.195.196.206, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_2376 @WangCai_1 2, server: 134.195.196.206, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: YouTube梦歌|Netflix_43, server: hnlt.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: hnlt.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: 加拿大【由零开始YouTube】 2, server: 72.140.224.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: ‌‌🇨🇦CA_5600 @WangCai_1 5, server: 134.195.196.206, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 134.195.196.206, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_7002 @WangCai_1 2, server: 134.195.196.206, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_6697 @WangCai_1, server: 134.195.196.206, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_8091 @WangCai_1 3, server: 134.195.196.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开）, server: 72.140.224.197, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: ‌‌🇨🇦CA_8881 @WangCai_1 4, server: 134.195.196.206, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1 4, server: 134.195.196.206, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(yudou66.com+玉豆分享)_13, server: 38.91.100.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 134.195.196.206, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _商店：8du.shop 2, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 72.140.224.197, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 72.140.224.197, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: YouTube梦歌|Netflix_3, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: ‌‌🇨🇦CA_5500 @WangCai_1 2, server: 134.195.196.206, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 日本(yudou66.com+玉豆分享)_3, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 鹏哥分享_新加坡_133, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: 订阅频道, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube梦歌|Netflix_97, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: us24053.cloudmatrix.xyz}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: us24051.cloudmatrix.xyz, port: 24051, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: us24051.cloudmatrix.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -548,537 +352,340 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港TG阿伟科技油管) 3
-      - 香港(yudou66.com+玉豆分享)_1
+      - 台湾(yudou66.com+玉豆分享)_2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1094,133 +701,84 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_4
       - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube@阿阳AYANG 11
-      - YouTube梦歌|Netflix_20
-      - _KR_韩国_3
-      - YouTube梦歌|Netflix_21
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_60
-      - YouTube梦歌|Netflix_209
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - YouTube梦歌|Netflix_63
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 美国【由零开始YouTube】 4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_224
-      - YouTube梦歌|Netflix_68
-      - RELAY-Openit.ml
-      - 8度商店：8du.shop 62
-      - _US_美国_4
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - 8度商店：8du.shop 103
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 鹏哥分享_英国_42
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 鹏哥分享_英国_64
-      - 鹏哥分享_英国_61
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - YouTube梦歌|Netflix_58
-      - (资源分享师)🇨🇳中国 20
-      - 鹏哥分享_英国_112
-      - 鹏哥分享_英国_62
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 16
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_21 2
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 鹏哥分享_英国_73
-      - 印度(yudou66_com+玉豆分享)_37
-      - YouTube梦歌|Netflix_82
-      - YouTube梦歌|Netflix_169
-      - YouTube梦歌|Netflix_214
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - YouTube梦歌|Netflix_136
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - YouTube梦歌|Netflix_167
-      - 8度商店：8du.shop 86
-      - YouTube梦歌|Netflix_105
       - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_58 2
-      - 8度商店：8du.shop 120
-      - 8度商店：8du.shop 50
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_32
-      - 8度商店：8du.shop 101
-      - 8度商店：8du.shop 33
-      - YouTube梦歌|Netflix_35
-      - 8度商店：8du.shop 91
-      - 8度商店：8du.shop 83
-      - YouTube梦歌|Netflix_112
-      - YouTube梦歌|Netflix_55
-      - 香港TG阿伟科技油管) 3
-      - 8度商店：8du.shop 82
-      - YouTube梦歌|Netflix_56
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_61
-      - 8度商店：8du.shop 64
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_36
+      - 美国(yudou66.com+玉豆分享)_4
+      - _US_美国_5
+      - _US_美国_4
+      - YouTube梦歌|Netflix_89
+      - US美国(yudou66.com+玉豆分享)_14
+      - US_8888 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_12
+      - US美国(yudou66.com+玉豆分享)_11
+      - YouTube梦歌|Netflix_93
+      - US_8009 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_7001 @WangCai_1
+      - US美国(yudou66.com+玉豆分享)_8
+      - US_2375 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_5
+      - US_8881 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - US美国(yudou66.com+玉豆分享)_7
+      - US_8009 @WangCai_1 2
+      - US_5000 @WangCai_1 2
+      - US_8118 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_7002 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_9
+      - _US_美国_5 2
+      - US美国(yudou66.com+玉豆分享)_2
+      - 鹏哥分享_美国_113
+      - _US_美国_9
+      - 美国(yudou66.com+玉豆分享)_1
+      - US_8118 @WangCai_1 2
+      - ‌‌🇨🇦CA_5003 @WangCai_1 2
+      - US_6679 @WangCai_1
+      - YouTube梦歌|Netflix_86
+      - US_美国(yudou66.com+玉豆分享)_12
+      - ‌‌🇨🇦CA_5004 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_20
+      - US_6379 @WangCai_1
+      - US_5600 @WangCai_1
+      - YouTube梦歌|Netflix_4
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_2
+      - US_8008 @WangCai_1
+      - US_5004 @WangCai_1
+      - US_5003 @WangCai_1
+      - US_7307 @WangCai_1
+      - US_8882 @WangCai_1
+      - ‌‌🇨🇦CA加拿大(yudou66.com+玉豆分享)_7
+      - US_5500 @WangCai_1
+      - 台湾(yudou66.com+玉豆分享)_2
+      - ‌‌🇨🇦CA_7307 @WangCai_1
+      - ‌‌🇨🇦CA_2376 @WangCai_1 2
       - YouTube梦歌|Netflix_43
-      - 8度商店：8du.shop 116
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_51
-      - YouTube梦歌|Netflix_22 2
-      - 8度商店：8du.shop 110
-      - 香港(yudou66.com+玉豆分享)_1
-      - YouTube梦歌|Netflix_19
-      - 8度商店：8du.shop 26
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_24
-      - YouTube梦歌|Netflix_66
-      - 8度商店：8du.shop 93
+      - 加拿大【由零开始YouTube】 2
+      - ‌‌🇨🇦CA_5600 @WangCai_1 5
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1 3
+      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - ‌‌🇨🇦CA_8881 @WangCai_1 4
+      - ‌‌🇨🇦CA_8888 @WangCai_1 4
+      - US美国(yudou66.com+玉豆分享)_13
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _商店：8du.shop 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - YouTube梦歌|Netflix_3
+      - ‌‌🇨🇦CA_5500 @WangCai_1 2
+      - 日本(yudou66.com+玉豆分享)_3
+      - 鹏哥分享_新加坡_133
       - 订阅频道
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - YouTube梦歌|Netflix_45
-      - 越南
-      - 8度商店：8du.shop 55
-      - YouTube梦歌|Netflix_49
-      - TG@阿伟科技/油管） 3
-      - YouTube梦歌|Netflix_119
-      - YouTube@阿阳AYANG 70
-      - 8度商店：8du.shop 104
-      - -AU-大米粥-34_34
-      - _NL_荷兰
-      - 美国
-      - 节点更新 bit.ly/36b6iJh
-      - 美国TG阿伟科技油管) 15
-      - 鹏哥分享_美国_107
-      - _TG阿伟科技油管) 2
-      - 鹏哥分享_中国_7
-      - 鹏哥分享_中国_27
-      - 鹏哥分享_加拿大_136
-      - NL-Openit.ml
-      - 荷兰【YouTube由零开始】
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - 鹏哥分享_中国_4
-      - YouTube梦歌|Netflix_151
-      - YouTube@阿阳AYANG 20
-      - _TG阿伟科技油管) 46
-      - 鹏哥分享_中国_28
-      - 鹏哥分享_中国_9
-      - YouTube@阿阳AYANG 6
+      - YouTube梦歌|Netflix_97
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
