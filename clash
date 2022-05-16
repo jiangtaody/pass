@@ -5,107 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_470, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_476, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_477, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_48, server: 25.uuuyun.click, port: 60025, type: vmess, uuid: 7a9ac159-b523-3a15-bf92-f939effcc21a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 25.uuuyun.click}, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: us24053.cloudmatrix.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_482, server: 106.75.154.24, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: HK香港订阅频道, server: tj-node-4.gfwairport.net, port: 50001, type: trojan, password: 042adefc-0d6d-4024-863f-8bbfb4a94062, sni: tj-node-4.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: JP日本订阅频道, server: tj-node-1.gfwairport.net, port: 50001, type: trojan, password: 042adefc-0d6d-4024-863f-8bbfb4a94062, sni: tj-node-1.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇫🇷FR_2008, server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: fr-direct-cdn.node001.xyz}, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_27, server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: hkbn.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP日本订阅频道 2, server: ss-node-1.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 042adefc-0d6d-4024-863f-8bbfb4a94062, udp: true}
-  - {name: KR韩国订阅频道, server: ss-node-2.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 042adefc-0d6d-4024-863f-8bbfb4a94062, udp: true}
-  - {name: CN_296, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: SG新加坡订阅频道, server: ss-node-3.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 042adefc-0d6d-4024-863f-8bbfb4a94062, udp: true}
-  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开）, server: 20.205.125.236, port: 60008, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: _商店：8du.shop 2, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_474, server: dx.yhy520.xyz, port: 58803, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_345, server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 112.64.53.217}, udp: true}
-  - {name: HK香港订阅频道 2, server: ss-node-4.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 042adefc-0d6d-4024-863f-8bbfb4a94062, udp: true}
-  - {name: LT_990, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: 20.24.77.204, port: 60010, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: ddns1.pdjc.cc, port: 42000, type: ss, cipher: chacha20-ietf-poly1305, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, udp: true}
+  - {name: YouTube梦歌|Netflix_6, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_10, server: w1.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_11, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_23, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_30, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip, server: zzcm06.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_28, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: w2.v2mmy.xyz, port: 44819, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
+  - {name: YouTube梦歌|Netflix_8, server: bwg.linfeng.tk, port: 40862, type: trojan, password: qDBOB0SHBD, sni: bwg.linfeng.tk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇬🇧_GB_英国, server: app.ssfree.ru, port: 443, type: vmess, uuid: 13fa2362-d468-11ec-9fc8-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: app.ssfree.ru}, udp: true}
+  - {name: YouTube梦歌|Netflix_19, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: w2.v2mmy.xyz, port: 44814, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: _US_美国, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
+  - {name: 法国(yudou66.com+玉豆分享), server: 95.142.161.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bXAlJahEn1fO, udp: true}
+  - {name: KR-高速节点推荐：v1.mk/vip, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 2, server: zzcm04.bdate.xyz, port: 1350, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 3, server: zzcm09.bdate.xyz, port: 1150, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 4, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 5, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 6, server: zzcm07.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm07.bdate.xyz}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 7, server: zzcm06.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 8, server: zzcm09.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 9, server: zzcm08.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 10, server: zzcm01.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 11, server: zzcm04.bdate.xyz, port: 1370, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 12, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 13, server: zzcm09.bdate.xyz, port: 1260, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 14, server: zzcm07.bdate.xyz, port: 1260, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 15, server: zzcm06.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
+  - {name: GB-高速节点推荐：v1.mk/vip, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 16, server: zzcm06.bdate.xyz, port: 1260, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 17, server: zzcm09.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 18, server: zzcm06.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,113 +180,167 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港订阅频道
-      - HK香港订阅频道 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,27 +356,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_470
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_477
-      - YouTube梦歌|Netflix_48
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - HK香港订阅频道
-      - JP日本订阅频道
-      - Relay_🇺🇸US-🇫🇷FR_2008
-      - Relay_🇭🇰HK-🇭🇰HK_27
-      - JP日本订阅频道 2
-      - KR韩国订阅频道
-      - CN_296
-      - SG新加坡订阅频道
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - _商店：8du.shop 2
-      - Relay_🇨🇳CN-🇭🇰HK_474
-      - Relay_🇨🇳CN-🇯🇵JP_345
-      - HK香港订阅频道 2
-      - LT_990
-      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_6
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_11
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_30
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_22
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - YouTube梦歌|Netflix_8
+      - _US_美国->🇬🇧_GB_英国
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_17
+      - _US_美国
+      - 法国(yudou66.com+玉豆分享)
+      - KR-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 2
+      - CN-高速节点推荐：v1.mk/vip 3
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 5
+      - CN-高速节点推荐：v1.mk/vip 6
+      - CN-高速节点推荐：v1.mk/vip 7
+      - CN-高速节点推荐：v1.mk/vip 8
+      - CN-高速节点推荐：v1.mk/vip 9
+      - CN-高速节点推荐：v1.mk/vip 10
+      - CN-高速节点推荐：v1.mk/vip 11
+      - CN-高速节点推荐：v1.mk/vip 12
+      - CN-高速节点推荐：v1.mk/vip 13
+      - CN-高速节点推荐：v1.mk/vip 14
+      - CN-高速节点推荐：v1.mk/vip 15
+      - GB-高速节点推荐：v1.mk/vip
+      - CN-高速节点推荐：v1.mk/vip 16
+      - CN-高速节点推荐：v1.mk/vip 17
+      - CN-高速节点推荐：v1.mk/vip 18
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
