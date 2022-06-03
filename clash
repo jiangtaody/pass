@@ -5,179 +5,187 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国(v2rayshare.com免费节点日更)_2, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.69.62}, udp: true}
-  - {name: JP-高速节点推荐：v1.mk/vip, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG-高速节点推荐：v1.mk/vip, server: 129.226.213.30, port: 35006, type: vmess, uuid: 1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(v2rayshare.com免费节点日更_1, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: YouTube梦歌|Netfllix_89, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip, server: 38.68.134.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip 2, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: TW-高速节点购买：v1.mk/vip, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip 3, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip 4, server: 38.68.134.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_34, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_44, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(v2rayshare.com免费节点日更_3, server: 167.88.61.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_31, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_33, server: 38.68.134.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_62, server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_49, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube梦歌|Netflix_31, server: cu.cheapv2.xyz, port: 26601, type: vmess, uuid: 9254040a-4600-36bf-9401-27fc9237f5c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: _US_美国_45, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(v2rayshare.com免费节点日更_6, server: 38.68.135.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: YouTube梦歌|Netfllix_106, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_67, server: gy.moonfree.top, port: 17253, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.moonfree.top}, udp: true}
-  - {name: YouTube梦歌|Netflix_38, server: cm.cheapv2.xyz, port: 26601, type: vmess, uuid: 9254040a-4600-36bf-9401-27fc9237f5c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: YouTube梦歌|Netfllix_146, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_5, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: YouTube梦歌|Netfllix_84, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_31 2, server: cu.cheapv2.xyz, port: 26601, type: vmess, uuid: 9254040a-4600-36bf-9401-27fc9237f5c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_191, server: hk4.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_69, server: jp.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: jp4.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
+  - {name: YouTube梦歌|Netflix_197, server: jp4.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp4.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_45, server: 36.158.244.49, port: 25056, type: ss, cipher: chacha20-ietf-poly1305, password: 7b561e94-42f3-4f92-979c-4cf97c328025, udp: true}
+  - {name: YouTube梦歌|Netflix_256, server: xjp001.369boy.com, port: 11001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: xjp001.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_113, server: jp4.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp4.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_173, server: tw.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: jp.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_15, server: hinet.okvpn.xyz, port: 12000, type: trojan, password: e1e878cd-bd57-4929-9c41-d23c4acdd7b4, sni: hinet.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_84, server: transfer.gzfxd.xyz, port: 10111, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: transfer.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_4, server: transfer.gzfxd.xyz, port: 10116, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: transfer.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_111, server: jp5.mayiyun.shop, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
+  - {name: YouTube梦歌|Netflix_106, server: crus9.gzfxd.xyz, port: 16616, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus9.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_225, server: crus8.gzfxd.xyz, port: 16616, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus8.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_217, server: transfer.gzfxd.xyz, port: 10028, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: transfer.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_157, server: jp001.369boy.com, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: jp001.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_259, server: usa002.369boy.com, port: 12001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa002.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_154, server: transfer.gzfxd.xyz, port: 10034, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: transfer.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_127, server: kr.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_104, server: mis.vxtrans.com, port: 30503, type: vmess, uuid: ed15ba6e-81f8-4ab3-a575-b9ba4340ef49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_151, server: usa.mayiyun.shop, port: 8080, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usa.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_147, server: usa1.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usa1.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_124, server: crus10.gzfxd.xyz, port: 16616, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus10.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_16, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: e1e878cd-bd57-4929-9c41-d23c4acdd7b4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_46, server: jp.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_139, server: usa003.369boy.com, port: 13011, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa003.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_118, server: usa006.369boy.com, port: 16001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa006.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_189, server: usa.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
+  - {name: YouTube梦歌|Netflix_218, server: crus11.gzfxd.xyz, port: 443, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus11.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_149, server: kr5.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr5.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_134, server: usa004.369boy.com, port: 14001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa004.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_170, server: can.mayiyun.shop, port: 10015, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
+  - {name: YouTube梦歌|Netflix_252, server: crus7.gzfxd.xyz, port: 10106, type: vmess, uuid: 0b2172af-6e4e-408c-b71b-43ae31cd2b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus7.gzfxd.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_80, server: azhk1.mayiyun.shop, port: 20003, type: ss, cipher: aes-256-gcm, password: cfccac6e-a868-4dd1-8e03-2c28a61971bb, udp: true}
+  - {name: YouTube梦歌|Netflix_174, server: can6.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: can6.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_215, server: azhk1.mayiyun.shop, port: 443, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk1.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_169, server: can.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: can.mayiyun.shop}, udp: true}
+  - {name: YouTube梦歌|Netflix_224, server: ger4.mayiyun.shop, port: 80, type: vmess, uuid: cfccac6e-a868-4dd1-8e03-2c28a61971bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ger4.mayiyun.shop}, udp: true}
   - {name: YouTube梦歌|Netflix_199, server: b5d28a9.sd.gladns.com, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
-  - {name: YouTube梦歌|Netfllix_180, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: SG-高速节点推荐：v1.mk/vip 2, server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_32, server: cc.tianxiedaiweige.tk, port: 443, type: trojan, password: 662dde24-c50c-4011-82b0-5c306afc56f2, sni: cc.tianxiedaiweige.tk, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip 5, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(v2rayshare.com免费节点日更_6, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: UA-高速节点购买：v1.mk/vip, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 422wkl.fans8.xyz}, udp: true}
-  - {name: HK-高速节点推荐：v1.mk/vip, server: 43.132.153.167, port: 23873, type: vmess, uuid: 143e2134-ca7d-46ff-e902-37d0967b9907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netfllix_104, server: hk.zzk8.me, port: 51000, type: trojan, password: 45da1626-2ecb-42d4-b16a-15d45ce60b71, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: SG-高速节点推荐：v1.mk/vip 3, server: 129.226.94.246, port: 33357, type: vmess, uuid: f1fcdce3-ebd3-4506-b455-c3d3fde62658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netfllix_124, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
-  - {name: 欧洲(v2rayshare.com免费节点日更_4, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_265, server: hk005.369boy.com, port: 35502, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: hk005.369boy.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -196,45 +204,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -245,134 +255,140 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -388,45 +404,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(v2rayshare.com免费节点日更)_2
-      - JP-高速节点推荐：v1.mk/vip
-      - SG-高速节点推荐：v1.mk/vip
-      - 欧洲(v2rayshare.com免费节点日更_1
-      - YouTube梦歌|Netfllix_89
-      - US-高速节点推荐：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 2
-      - TW-高速节点购买：v1.mk/vip
-      - US-高速节点推荐：v1.mk/vip 3
-      - US-高速节点推荐：v1.mk/vip 4
-      - _US_美国_34
-      - _US_美国_44
-      - 美国(v2rayshare.com免费节点日更_3
-      - _US_美国_31
-      - _US_美国_33
-      - _US_美国_62
-      - _US_美国_49
-      - YouTube梦歌|Netflix_31
-      - _US_美国_45
-      - 美国(v2rayshare.com免费节点日更_6
-      - YouTube梦歌|Netfllix_106
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_38
-      - YouTube梦歌|Netfllix_146
-      - _US_美国_5
-      - YouTube梦歌|Netfllix_84
-      - YouTube梦歌|Netflix_31 2
+      - YouTube梦歌|Netflix_191
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_256
+      - YouTube梦歌|Netflix_113
+      - YouTube梦歌|Netflix_173
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_225
+      - YouTube梦歌|Netflix_217
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_259
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_127
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_151
+      - YouTube梦歌|Netflix_147
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_16
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_118
+      - YouTube梦歌|Netflix_189
+      - YouTube梦歌|Netflix_218
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_170
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_174
+      - YouTube梦歌|Netflix_215
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_224
       - YouTube梦歌|Netflix_199
-      - YouTube梦歌|Netfllix_180
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_32
-      - US-高速节点推荐：v1.mk/vip 5
-      - 欧洲(v2rayshare.com免费节点日更_6
-      - UA-高速节点购买：v1.mk/vip
-      - HK-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netfllix_104
-      - SG-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netfllix_124
-      - 欧洲(v2rayshare.com免费节点日更_4
+      - YouTube梦歌|Netflix_265
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
